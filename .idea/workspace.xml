@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="更改">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +313,9 @@
       <workItem from="1701791290085" duration="25000" />
       <workItem from="1701827003110" duration="7409000" />
       <workItem from="1701913835150" duration="6123000" />
-      <workItem from="1701938930952" duration="4184000" />
+      <workItem from="1701938930952" duration="4297000" />
+      <workItem from="1701966142859" duration="2502000" />
+      <workItem from="1701968778728" duration="15000" />
     </task>
     <servers />
   </component>
@@ -355,7 +361,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/03.Area_segmentation/test.py</url>
+          <url>file://$PROJECT_DIR$/03.Area_segmentation/validation.py</url>
           <line>6</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>

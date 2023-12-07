@@ -82,8 +82,7 @@ steps = len(test_image_names) // args.batch_size
 
 # testing
 scores = net.evaluate_generator(test_generator, steps=steps, workers=os.cpu_count(), use_multiprocessing=False)
-# DICE = 2 * scores[1] / (1 + scores[1])
-# print('DICE: {DICE:0.3f}'.format(DICE=DICE))
+
 print('*****************************************')
 print('* The loss and Mean IoU are as follows: *')
 print('loss={loss:0.3f}, MeanIoU={mean_iou:0.3f}'.format(loss=scores[0], mean_iou=scores[1]))
