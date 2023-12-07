@@ -4,6 +4,7 @@
 <p align="center">
     <img src="Figures/abstract.png" title="Abstract" width="500" /> 
 </p>
+
 ## Getting Started
 
 ### Requirements
