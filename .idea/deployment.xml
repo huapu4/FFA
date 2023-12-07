@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="linzhenzhe@10.100.168.104:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="linzhenzhe@10.100.168.104:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/linzhenzhe/FFA" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

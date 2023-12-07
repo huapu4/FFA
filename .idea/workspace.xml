@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="更改">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Phase_identification/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Phase_identification/dataset/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/dataset/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Phase_identification/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Phase_identification/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Phase_identification/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/builders/model_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/builders/model_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/models/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/models/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/result_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/utils/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/utils/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cls_data_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cls_data_deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cls_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cls_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labelme2voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/labelme2voc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seg_data_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/seg_data_deploy.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2WruuwcyKgs9WrLgOK281OfBf82" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/Ai-Docdor FFA/FFA/03.Area_segmentation/result_plot.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Project/Ai-Docdor FFA/FFA/03.Area_segmentation/result_plot.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Ai-Docdor FFA\FFA\02.Disease_diagnosis" />
+      <recent name="D:\Project\Ai-Docdor FFA\FFA\01.Phase_identification" />
+      <recent name="D:\Project\Ai-Docdor FFA\FFA\123" />
+      <recent name="F:\Ai-Docdor FFA\03.Area_segmentation\FFA_dataset" />
+      <recent name="F:\Ai-Docdor FFA\03.Area_segmentation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Ai-Docdor FFA\03.Area_segmentation\dataset" />
+      <recent name="F:\Ai-Docdor FFA\03.Area_segmentation" />
+      <recent name="F:\Ai-Docdor FFA\01.Phase_identification\dataset" />
+      <recent name="F:\Ai-Docdor FFA\02.Disease_diagnosis" />
+      <recent name="F:\Ai-Docdor FFA\01.Phase_identification" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.visualization">
+    <configuration name="cls_utils" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\linzhenzhe\.conda\envs\img_pro\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.Phase_identification/data" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Ai-Docdor FFA\cls_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\linzhenzhe\.conda\envs\img_pro\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.Phase_identification/dataset" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.Phase_identification/dataset/dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="labelme2voc" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\linzhenzhe\.conda\envs\labelenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labelme2voc.py" />
+      <option name="PARAMETERS" value="./origin_data/03.area_segmentation/labeled_data ./origin_data/03.area_segmentation/voc_data --labels ./origin_data/03.area_segmentation/label.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seg_data_deploy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\linzhenzhe\.conda\envs\labelenv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seg_data_deploy.py" />
+      <option name="PARAMETERS" value="--input ./origin_data/03.area_segmentation/voc_data --output ./03.Area_segmentation/FFA_dataset --prop 0.7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.Phase_identification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.Phase_identification/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="validation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.Phase_identification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.Phase_identification/validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.Phase_identification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Project\Ai-Docdor FFA\FFA\01.Phase_identification\validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Area_segmentation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Project\Ai-Docdor FFA\FFA\03.Area_segmentation\visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.cls_utils" />
+      <item itemvalue="Python.labelme2voc" />
+      <item itemvalue="Python.dataset" />
+      <item itemvalue="Python.visualization" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.validation" />
+      <item itemvalue="Python.validation (1)" />
+      <item itemvalue="Python.seg_data_deploy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.visualization" />
+        <item itemvalue="Python.validation (1)" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.validation" />
+        <item itemvalue="Python.seg_data_deploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="" />
+      <created>1697503245510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697503245510</updated>
+      <workItem from="1697503246545" duration="4188000" />
+      <workItem from="1699328857778" duration="601000" />
+      <workItem from="1699535897598" duration="604000" />
+      <workItem from="1699861724284" duration="785000" />
+      <workItem from="1699862518785" duration="2821000" />
+      <workItem from="1699896142985" duration="595000" />
+      <workItem from="1699925940906" duration="8133000" />
+      <workItem from="1699949149873" duration="1137000" />
+      <workItem from="1699950821257" duration="2206000" />
+      <workItem from="1699953040720" duration="1390000" />
+      <workItem from="1700117325979" duration="7391000" />
+      <workItem from="1700330234708" duration="1332000" />
+      <workItem from="1700378381829" duration="11301000" />
+      <workItem from="1700450669553" duration="670000" />
+      <workItem from="1700527408968" duration="4994000" />
+      <workItem from="1700621253262" duration="12928000" />
+      <workItem from="1700700503987" duration="10186000" />
+      <workItem from="1700711916142" duration="8825000" />
+      <workItem from="1700742005061" duration="569000" />
+      <workItem from="1700787983675" duration="2316000" />
+      <workItem from="1700963997488" duration="4595000" />
+      <workItem from="1701157953464" duration="929000" />
+      <workItem from="1701162302357" duration="2853000" />
+      <workItem from="1701226381371" duration="2497000" />
+      <workItem from="1701246862902" duration="24000" />
+      <workItem from="1701295838187" duration="1997000" />
+      <workItem from="1701303274591" duration="3522000" />
+      <workItem from="1701314071311" duration="610000" />
+      <workItem from="1701327221373" duration="1278000" />
+      <workItem from="1701347869697" duration="106000" />
+      <workItem from="1701347986217" duration="36000" />
+      <workItem from="1701420340820" duration="14032000" />
+      <workItem from="1701672550487" duration="650000" />
+      <workItem from="1701739158211" duration="12792000" />
+      <workItem from="1701791290085" duration="25000" />
+      <workItem from="1701827003110" duration="7409000" />
+      <workItem from="1701913835150" duration="5441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cls_data_deploy.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cls_data_deploy.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cls_data_deploy.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seg_data_deploy.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/01.Phase_identification/config.py</url>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03.Area_segmentation/test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/01.Phase_identification/dataset/dataset.py</url>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02.Disease_diagnosis/dataset/dataset.py</url>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="train_list" />
+        <watch expression="test_list" />
+        <watch expression="trainsave_dir" />
+        <watch expression="testsave_dir" />
+        <watch expression="test_label_list" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Ai_Docdor_FFA$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1699952787020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Phase_identification/data" />
+    <SUITE FILE_PATH="coverage/FFA$draw_roc.coverage" NAME="draw_roc 覆盖结果" MODIFIED="1701158207296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Phase_identification" />
+    <SUITE FILE_PATH="coverage/Ai_Docdor_FFA$seg_data_deploy.coverage" NAME="seg_data_deploy 覆盖结果" MODIFIED="1700725094171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ai_Docdor_FFA$config.coverage" NAME="config 覆盖结果" MODIFIED="1700642286375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.Disease_diagnosis" />
+    <SUITE FILE_PATH="coverage/FFA$validation__1_.coverage" NAME="validation (1) 覆盖结果" MODIFIED="1701840674442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Phase_identification" />
+    <SUITE FILE_PATH="coverage/FFA$result_plot.coverage" NAME="result_plot 覆盖结果" MODIFIED="1701840689319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.Area_segmentation" />
+    <SUITE FILE_PATH="coverage/Ai_Docdor_FFA$data_deploy.coverage" NAME="data_deploy 覆盖结果" MODIFIED="1700532297595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/Ai_Docdor_FFA$labelme2voc.coverage" NAME="labelme2voc 覆盖结果" MODIFIED="1700722600076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FFA$train.coverage" NAME="train 覆盖结果" MODIFIED="1701162459094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Phase_identification" />
+  </component>
+</project>
