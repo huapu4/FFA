@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="更改">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Phase_identification/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Phase_identification/dataset/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/dataset/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Phase_identification/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/heatmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Phase_identification/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Phase_identification/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/heatmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/builders/model_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/builders/model_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/models/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/models/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/result_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/visualization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/utils/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/utils/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cls_data_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cls_data_deploy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cls_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cls_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labelme2voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/labelme2voc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seg_data_deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/seg_data_deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +309,8 @@
       <workItem from="1701739158211" duration="12792000" />
       <workItem from="1701791290085" duration="25000" />
       <workItem from="1701827003110" duration="7409000" />
-      <workItem from="1701913835150" duration="5441000" />
+      <workItem from="1701913835150" duration="6123000" />
+      <workItem from="1701938930952" duration="2548000" />
     </task>
     <servers />
   </component>
