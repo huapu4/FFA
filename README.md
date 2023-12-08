@@ -41,7 +41,8 @@ pip install -r requirement.txt
 ### Data preparation
 
 **There will be three datasets to be prepared, respectively in
-folder: [01.Phase_identification](https://github.com/huapu4/FFA/tree/main/01.Phase_identification/dataset), [02.Disease_diagnosis](https://github.com/huapu4/FFA/tree/main/02.Disease_diagnosis/dataset)
+folder: [01.Phase_identification](https://github.com/huapu4/FFA/tree/main/01.Phase_identification/dataset)
+, [02.Disease_diagnosis](https://github.com/huapu4/FFA/tree/main/02.Disease_diagnosis/dataset)
 [03.Area_segmentation](https://github.com/huapu4/FFA/tree/main/03.Area_segmentation/FFA_dataset).**
 
 a. Put your own data in [./origin_data](https://github.com/huapu4/FFA/tree/main/origin_data), stored according to
@@ -183,15 +184,18 @@ python heatmap --input [folder of data] --model [path of *.pth]
 cd 02.Disease_diagnosis
 python heatmap --input [folder of data] --model [path of *.pth]
 ```
+
 <p align="center">
     <img src="Figures/heatmap.png" title="Abstract" width="480" /> 
 </p>
+
 #### [03.Area_segmentation](https://github.com/huapu4/FFA/tree/main/03.Area_segmentation/FFA_dataset)
 
 ```
 cd 03.Area_segmentation
 python visiualization.py --model [segmentation head network] --base_model [backbone] --weights [path of *.h5] --dataset [path of validset]
 ```
+
 <p align="center">
     <img src="Figures/segmentation.png" title="Abstract" width="480" /> 
 </p>

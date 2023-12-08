@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="更改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Phase_identification/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.Phase_identification/heatmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Disease_diagnosis/heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.Disease_diagnosis/heatmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,6 +314,7 @@
       <workItem from="1701966142859" duration="2502000" />
       <workItem from="1701968778728" duration="222000" />
       <workItem from="1701994137397" duration="8773000" />
+      <workItem from="1702045557530" duration="101000" />
     </task>
     <servers />
   </component>
