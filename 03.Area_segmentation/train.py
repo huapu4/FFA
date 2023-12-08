@@ -21,7 +21,7 @@ parser.add_argument('--base_model', help='Choose the backbone model.', type=str,
 parser.add_argument('--dataset', help='The path of the dataset.', type=str, default='FFA_dataset')
 parser.add_argument('--loss', help='The loss function for traing.', type=str, default=None,
                     choices=['ce', 'focal_loss', 'miou_loss', 'self_balanced_focal_loss'])
-parser.add_argument('--num_classes', help='The number of classes to be segmented.', type=int, default=2)
+parser.add_argument('--num_classes', help='The number of classes to be segmented.', type=int, default=3)
 parser.add_argument('--random_crop', action='store_false', help='Whether to randomly crop the image.')
 parser.add_argument('--crop_height', help='The height to crop the image.', type=int, default=512)
 parser.add_argument('--crop_width', help='The width to crop the image.', type=int, default=512)

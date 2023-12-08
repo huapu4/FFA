@@ -16,7 +16,7 @@ def get_args():
     parser.add_argument('--use-cuda', action='store_true', default=True, help='Use NVIDIA GPU acceleration')
     parser.add_argument('--input', help='Dirpath of input_image', required=True)
     parser.add_argument('--model', help='Path of model(.pth)', required=True)
-    parser.add_argument('--output', default='./cam_show', help='Dirpath of saving cam_image')
+    parser.add_argument('--output', default='./visualization', help='Dirpath of saving cam_image')
     args = parser.parse_args()
     args.use_cuda = args.use_cuda and torch.cuda.is_available()
     if args.use_cuda:

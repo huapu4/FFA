@@ -2,19 +2,19 @@
 
 **A deep learning-based fundus fluoresceinangiography imageanalytics protocowith classification and segmentation tasks**
 <p align="center">
-    <img src="Figures/abstract.png" title="Abstract" width="500" /> 
+    <img src="Figures/abstract.png" title="Abstract" width="400" /> 
 </p>
 
 ## Getting Started
 
 ### Requirements
 
-* **Ubuntu 16.04 or higher, Windows 10 or higher with Anaconda or Miniconda**
+* **Ubuntu 18.04 or higher, Windows 10 or higher with Anaconda or Miniconda**
 * **Python 3.7**
 * **PyTorch = 1.11.0**
 * **tensorflow-gpu = 1.14.0**
 * **CUDA 11.3**
-* **More packages please refer to [`requirement`](https://github.com/huapu4/FFA/blob/main/requirement.txt)**
+* **More packages please refer to [requirement.txt](https://github.com/huapu4/FFA/blob/main/requirement.txt)**
 
 ### Installation
 
@@ -41,9 +41,8 @@ pip install -r requirement.txt
 ### Data preparation
 
 **There will be three datasets to be prepared, respectively in
-folder: [01.Phase_identification](https://github.com/huapu4/FFA/tree/main/01.Phase_identification/dataset)
-, [02.Disease_diagnosis](https://github.com/huapu4/FFA/tree/main/02.Disease_diagnosis/dataset)
-, [03.Area_segmentation](https://github.com/huapu4/FFA/tree/main/03.Area_segmentation/FFA_dataset).**
+folder: [01.Phase_identification](https://github.com/huapu4/FFA/tree/main/01.Phase_identification/dataset), [02.Disease_diagnosis](https://github.com/huapu4/FFA/tree/main/02.Disease_diagnosis/dataset)
+[03.Area_segmentation](https://github.com/huapu4/FFA/tree/main/03.Area_segmentation/FFA_dataset).**
 
 a. Put your own data in [./origin_data](https://github.com/huapu4/FFA/tree/main/origin_data), stored according to
 specifications.
@@ -111,7 +110,7 @@ b. begin training
 ```
 cd 01.Phase_identification
 python train.py
-#------------or-----------
+#----------- or -----------
 cd 02.Disease_diagnosis
 python train.py
 ```
@@ -175,14 +174,34 @@ python test.py --model [segmentation head network] --base_model [backbone] --wei
 
 #### [01.Phase_identification](https://github.com/huapu4/FFA/tree/main/01.Phase_identification/dataset) & [02.Disease_diagnosis](https://github.com/huapu4/FFA/tree/main/02.Disease_diagnosis/dataset)
 
+The visualization for these two tasks is the heatmap.
 
-
+```
+cd 01.Phase_identification
+python heatmap --input [folder of data] --model [path of *.pth]
+#----------- or -----------
+cd 02.Disease_diagnosis
+python heatmap --input [folder of data] --model [path of *.pth]
+```
+<p align="center">
+    <img src="Figures/heatmap.png" title="Abstract" width="480" /> 
+</p>
 #### [03.Area_segmentation](https://github.com/huapu4/FFA/tree/main/03.Area_segmentation/FFA_dataset)
 
+```
+cd 03.Area_segmentation
+python visiualization.py --model [segmentation head network] --base_model [backbone] --weights [path of *.h5] --dataset [path of validset]
+```
+<p align="center">
+    <img src="Figures/segmentation.png" title="Abstract" width="480" /> 
+</p>
 
+### Credit
 
-
-
-
-
-
+* [Pytorch Torchvision](https://pytorch.org/)
+* [Tensorflow](https://www.tensorflow.org/?hl=zh-cn)
+* [Opencv-python](https://opencv.org/)
+* [Matplotlib](https://matplotlib.org/stable/)
+* [Numpy](https://numpy.org/)
+* [Scikit-learn](https://scikit-learn.org/)
+* [Amazing-Semantic-Segmentation](https://github.com/luyanger1799/Amazing-Semantic-Segmentation)
