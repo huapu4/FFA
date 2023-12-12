@@ -10,6 +10,8 @@ from config import DefaultConfig
 from dataset.dataset import Phase_data
 import argparse
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 
 def test(trained_model, data_root, batch_size, excel_name, roc_name):
     test_set = Phase_data(data_root, train=False, test=True)
@@ -43,7 +45,7 @@ def test(trained_model, data_root, batch_size, excel_name, roc_name):
             roc_1 = output_class(y_true, scores, 1)
             roc_2 = output_class(y_true, scores, 2)
             roc_list = [roc_0, roc_1, roc_2]
-            name_list = ['non_ffa', 'arterial_phase', 'venous_phase']
+            name_list = ['Non-FFA', 'Arterial', 'Venous']
             draw_curve(roc_list, name_list, roc_name=roc_name)
 
         if excel_name:
@@ -63,8 +65,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', help="Dirpath of testdata", required=True)
     parser.add_argument('--model', help="Path of model(pth)", required=True)
-    parser.add_argument('--excel', help="'Name of excel' or None", default=None, required=True)
-    parser.add_argument('--roc', help="'Name of roc_curve' or None", default=None, required=True)
+    parser.add_argument('--excel', help="'Name of excel' or None",default=None, required=True)
+    parser.add_argument('--roc', help="'Name of roc_curve' or None",default=None, required=True)
     args = parser.parse_args()
 
     opt = DefaultConfig()

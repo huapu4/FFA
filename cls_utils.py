@@ -68,10 +68,10 @@ def draw_curve(index_list, name_list, roc_name):
         plt.ylim([0.0, 1.0])
         plt.xlabel('1-Specificity', fontdict={'size': 20})
         plt.ylabel('Sensitivity', fontdict={'size': 20})
-        plt.title('ROC')
+        plt.title('ROC', fontdict={'size': 24})
         plt.grid(linestyle='-.')
         plt.legend(loc="lower right", prop={'size': 16})
-    plt.savefig(roc_name, dpi=600)
+    plt.savefig(roc_name + '.svg', format='svg', dpi=600)
 
 
 def WriteToExcel(file_path, lists):

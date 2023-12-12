@@ -7,9 +7,12 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from cls_utils import *
 from sklearn import metrics
+
 from config import DefaultConfig
 from dataset.dataset import Disease_data
 import argparse
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 def test(trained_model, data_root, batch_size, excel_name, roc_name):
@@ -46,7 +49,7 @@ def test(trained_model, data_root, batch_size, excel_name, roc_name):
             roc_2 = output_class(y_true, scores, 2)
             roc_3 = output_class(y_true, scores, 3)
             roc_list = [roc_0, roc_1, roc_2, roc_3]
-            name_list = ['normal', 'brvo', 'none_np', 'with_np']
+            name_list = ['Normal', 'BRVO', 'DR without NPAs', 'DR with NPAs']
             draw_curve(roc_list, name_list, roc_name=roc_name)
 
         if excel_name:
@@ -66,8 +69,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', help="Dirpath of testdata", required=True)
     parser.add_argument('--model', help="Path of model(pth)", required=True)
-    parser.add_argument('--excel', help="'Name of excel' or None", default='data_valid')
-    parser.add_argument('--roc', help="'Name of roc_curve' or None", default='data_valid_roc')
+    parser.add_argument('--excel', help="'Name of excel' or None",default='data_valid')
+    parser.add_argument('--roc', help="'Name of roc_curve' or None",default='data_valid_roc')
     args = parser.parse_args()
 
     opt = DefaultConfig()
