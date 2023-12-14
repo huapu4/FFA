@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="更改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Area_segmentation/checkpoints/Description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/03.Area_segmentation/checkpoints/Description.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Project/Ai-Docdor FFA/FFA/01.Phase_identification/visualization",
+    "last_opened_file_path": "D:/Project/Ai-Docdor FFA/FFA/03.Area_segmentation/checkpoints",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,11 +53,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Ai-Docdor FFA\FFA\03.Area_segmentation\checkpoints" />
+      <recent name="D:\Project\Ai-Docdor FFA\FFA\02.Disease_diagnosis\visualization" />
       <recent name="D:\Project\Ai-Docdor FFA\FFA\01.Phase_identification\visualization" />
       <recent name="D:\Project\Ai-Docdor FFA\FFA\02.Disease_diagnosis\result_logging" />
       <recent name="D:\Project\Ai-Docdor FFA\FFA\01.Phase_identification\result_logging" />
-      <recent name="D:\Project\Ai-Docdor FFA\FFA\01.Phase_identification\checkpoints" />
-      <recent name="D:\Project\Ai-Docdor FFA\FFA\Figures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Ai-Docdor FFA\03.Area_segmentation\dataset" />
@@ -318,7 +318,7 @@
       <workItem from="1702363103294" duration="382000" />
       <workItem from="1702364917781" duration="499000" />
       <workItem from="1702397843597" duration="616000" />
-      <workItem from="1702540924805" duration="1088000" />
+      <workItem from="1702540924805" duration="1265000" />
     </task>
     <servers />
   </component>
