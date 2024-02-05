@@ -22,8 +22,8 @@ def main():
     parser.add_argument("--noviz", help="no visualization", action="store_true", default=False)
     args = parser.parse_args()
 
-    if osp.exists(args.output_dir):
-        print("Output directory already exists:", args.output_dir)
+    if osp.exists(args.output):
+        print("Output directory already exists:", args.output)
         sys.exit(1)
     os.makedirs(args.output_dir)
     os.makedirs(osp.join(args.output_dir, "JPEGImages"))
