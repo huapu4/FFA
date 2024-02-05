@@ -25,21 +25,21 @@ def main():
     if osp.exists(args.output):
         print("Output directory already exists:", args.output)
         sys.exit(1)
-    os.makedirs(args.output_dir)
-    os.makedirs(osp.join(args.output_dir, "JPEGImages"))
-    os.makedirs(osp.join(args.output_dir, "SegmentationClass"))
-    os.makedirs(osp.join(args.output_dir, "SegmentationClassPNG"))
+    os.makedirs(args.output)
+    os.makedirs(osp.join(args.output, "JPEGImages"))
+    os.makedirs(osp.join(args.output, "SegmentationClass"))
+    os.makedirs(osp.join(args.output, "SegmentationClassPNG"))
     if not args.noviz:
         os.makedirs(
-            osp.join(args.output_dir, "SegmentationClassVisualization")
+            osp.join(args.output, "SegmentationClassVisualization")
         )
-    os.makedirs(osp.join(args.output_dir, "SegmentationObject"))
-    os.makedirs(osp.join(args.output_dir, "SegmentationObjectPNG"))
+    os.makedirs(osp.join(args.output, "SegmentationObject"))
+    os.makedirs(osp.join(args.output, "SegmentationObjectPNG"))
     if not args.noviz:
         os.makedirs(
-            osp.join(args.output_dir, "SegmentationObjectVisualization")
+            osp.join(args.output, "SegmentationObjectVisualization")
         )
-    print("Creating dataset:", args.output_dir)
+    print("Creating dataset:", args.output)
 
     class_names = []
     class_name_to_id = {}
@@ -55,39 +55,39 @@ def main():
         class_names.append(class_name)
     class_names = tuple(class_names)
     print("class_names:", class_names)
-    out_class_names_file = osp.join(args.output_dir, "class_names.txt")
+    out_class_names_file = osp.join(args.output, "class_names.txt")
     with open(out_class_names_file, "w") as f:
         f.writelines("\n".join(class_names))
     print("Saved class_names:", out_class_names_file)
 
-    for filename in glob.glob(osp.join(args.input_dir, "*.json")):
+    for filename in glob.glob(osp.join(args.input, "*.json")):
         print("Generating dataset from:", filename)
 
         label_file = labelme.LabelFile(filename=filename)
 
         base = osp.splitext(osp.basename(filename))[0]
-        out_img_file = osp.join(args.output_dir, "JPEGImages", base + ".jpg")
+        out_img_file = osp.join(args.output, "JPEGImages", base + ".jpg")
         out_cls_file = osp.join(
-            args.output_dir, "SegmentationClass", base + ".npy"
+            args.output, "SegmentationClass", base + ".npy"
         )
         out_clsp_file = osp.join(
-            args.output_dir, "SegmentationClassPNG", base + ".png"
+            args.output, "SegmentationClassPNG", base + ".png"
         )
         if not args.noviz:
             out_clsv_file = osp.join(
-                args.output_dir,
+                args.output,
                 "SegmentationClassVisualization",
                 base + ".jpg",
             )
         out_ins_file = osp.join(
-            args.output_dir, "SegmentationObject", base + ".npy"
+            args.output, "SegmentationObject", base + ".npy"
         )
         out_insp_file = osp.join(
-            args.output_dir, "SegmentationObjectPNG", base + ".png"
+            args.output, "SegmentationObjectPNG", base + ".png"
         )
         if not args.noviz:
             out_insv_file = osp.join(
-                args.output_dir,
+                args.output,
                 "SegmentationObjectVisualization",
                 base + ".jpg",
             )
