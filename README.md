@@ -1,4 +1,5 @@
 # FFA
+[![DOI](https://zenodo.org/badge/728570556.svg)](https://zenodo.org/doi/10.5281/zenodo.11212583)
 
 **A deep learning-based fundus fluoresceinangiography imageanalytics protocowith classification and segmentation tasks**
 <p align="center">

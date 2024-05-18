@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e7d887a-6d49-49a2-adcc-1d162c596580" name="更改" comment="更改">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Project/Ai-Docdor FFA/FFA/03.Area_segmentation/checkpoints&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -70,6 +74,7 @@
   <component name="RunManager" selected="Python.labelme2voc">
     <configuration name="cls_utils" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -92,6 +97,7 @@
     </configuration>
     <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -114,6 +120,7 @@
     </configuration>
     <configuration name="labelme2voc" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -136,6 +143,7 @@
     </configuration>
     <configuration name="seg_data_deploy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -158,6 +166,7 @@
     </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -180,6 +189,7 @@
     </configuration>
     <configuration name="validation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -202,6 +212,7 @@
     </configuration>
     <configuration name="validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -224,6 +235,7 @@
     </configuration>
     <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FFA" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -263,6 +275,13 @@
         <item itemvalue="Python.seg_data_deploy" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -322,7 +341,14 @@
       <workItem from="1707067719739" duration="626000" />
       <workItem from="1707092688503" duration="1070000" />
       <workItem from="1708917075367" duration="612000" />
-      <workItem from="1709170473690" duration="728000" />
+      <workItem from="1709170473690" duration="1023000" />
+      <workItem from="1709189868367" duration="223000" />
+      <workItem from="1709537350155" duration="3219000" />
+      <workItem from="1709605475724" duration="395000" />
+      <workItem from="1709605991584" duration="720000" />
+      <workItem from="1709655676604" duration="210000" />
+      <workItem from="1709655901096" duration="1650000" />
+      <workItem from="1716002424509" duration="50000" />
     </task>
     <servers />
   </component>
